@@ -1,0 +1,8 @@
+Les paquets de depart sont :
+Paquet de N :
+
+Paquet de S :
+
+Boucle principale
+ >>>>>>>>>>>>> le gagnant de ce jeu est : S
+fin de partie
