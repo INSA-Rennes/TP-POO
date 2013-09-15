@@ -1,3 +1,14 @@
+/**
+* \ file nom du fichier
+* \ brief breve description de son contenu
+* \ author nom prenom
+* \ version X.Y
+* \ date date de creation
+*
+* Description plus detaillee du contenu du fichier
+*
+*/
+
 #include "Carte.h"
 
 Carte *Carte::teteN = 0;
@@ -33,6 +44,19 @@ Carte::Carte(Couleur c, Hauteur h, char proprio): couleur(c), hauteur(h) {
 	this->succ = 0;
 }
 
+/**
+* \fn prototype de la fontion
+* \ brief des
+ription breve de la fon
+tion
+*
+* \ param [in]
+* \ param [out]
+* \ param [in ,out] 
+*
+* \ return le type de retour et sa des
+ription
+*/
 bool Carte::supAbs(Carte carte) {
 	return this->hauteur > carte.hauteur;
 }
@@ -46,8 +70,8 @@ void Carte::afficher() {
 }
 
 void Carte::afficherN() {
-	Carte *carte = Carte::getNTete();
-	while(carte != Carte::getNQueue()) {
+	Carte *carte = teteN;
+	while(carte != 0) {
 		carte->afficher();
 		std::cout << std::endl;
 		carte = carte->getSucc();
@@ -55,8 +79,8 @@ void Carte::afficherN() {
 }
 
 void Carte::afficherS() {
-	Carte *carte = Carte::getSTete();
-	while(carte != Carte::getSQueue()) {
+	Carte *carte = teteS;
+	while(carte != 0) {
 		carte->afficher();
 		std::cout << std::endl;
 		carte = carte->getSucc();

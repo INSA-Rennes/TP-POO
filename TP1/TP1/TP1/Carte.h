@@ -1,3 +1,15 @@
+/**
+* \ file nom du fichier
+* \ brief breve description de son contenu
+* \ author nom prenom
+* \ version X.Y
+* \ date date de creation
+*
+* Description plus detaillee du contenu du fichier
+*
+*/
+
+
 #ifndef CARTE_H
 #define CARTE_H
 #include <string>

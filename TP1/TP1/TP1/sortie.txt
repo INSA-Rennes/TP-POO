@@ -1,570 +1,312 @@
 Les paquets de depart sont :
 Paquet de N :
+Roi de Carreau (13, 4)
+Dame de Carreau (12, 4)
 Valet de Carreau (11, 4)
+Dix de Carreau (10, 4)
 neuf de Carreau (9, 4)
 Sept de Carreau (7, 4)
-Cinq de Carreau (5, 4)
-Quatre de Carreau (4, 4)
 Trois de Carreau (3, 4)
-Deux de Carreau (2, 4)
-As de Carreau (1, 4)
+Roi de Coeur (13, 3)
 Dame de Coeur (12, 3)
 Valet de Coeur (11, 3)
+Dix de Coeur (10, 3)
 Sept de Coeur (7, 3)
-Trois de Coeur (3, 3)
-Deux de Coeur (2, 3)
-As de Coeur (1, 3)
+Cinq de Coeur (5, 3)
 Roi de Trefle (13, 2)
+Dame de Trefle (12, 2)
+Valet de Trefle (11, 2)
 neuf de Trefle (9, 2)
 Huit de Trefle (8, 2)
 Six de Trefle (6, 2)
-Deux de Trefle (2, 2)
+Roi de Pique (13, 1)
 Dame de Pique (12, 1)
+Valet de Pique (11, 1)
 Dix de Pique (10, 1)
 Huit de Pique (8, 1)
-Six de Pique (6, 1)
+Cinq de Pique (5, 1)
 Trois de Pique (3, 1)
-Deux de Pique (2, 1)
 
 Paquet de S :
-Roi de Carreau (13, 4)
-Dame de Carreau (12, 4)
-Dix de Carreau (10, 4)
 Huit de Carreau (8, 4)
 Six de Carreau (6, 4)
-Roi de Coeur (13, 3)
-Dix de Coeur (10, 3)
+Cinq de Carreau (5, 4)
+Quatre de Carreau (4, 4)
+Deux de Carreau (2, 4)
+As de Carreau (1, 4)
 neuf de Coeur (9, 3)
 Huit de Coeur (8, 3)
 Six de Coeur (6, 3)
-Cinq de Coeur (5, 3)
 Quatre de Coeur (4, 3)
-Dame de Trefle (12, 2)
-Valet de Trefle (11, 2)
+Trois de Coeur (3, 3)
+Deux de Coeur (2, 3)
+As de Coeur (1, 3)
 Dix de Trefle (10, 2)
 Sept de Trefle (7, 2)
 Cinq de Trefle (5, 2)
 Quatre de Trefle (4, 2)
 Trois de Trefle (3, 2)
+Deux de Trefle (2, 2)
 As de Trefle (1, 2)
-Roi de Pique (13, 1)
-Valet de Pique (11, 1)
 neuf de Pique (9, 1)
 Sept de Pique (7, 1)
-Cinq de Pique (5, 1)
+Six de Pique (6, 1)
+Quatre de Pique (4, 1)
+Deux de Pique (2, 1)
+As de Pique (1, 1)
 
 Boucle principale
-Carte de N :Valet de Carreau (11, 4)Carte de S :Roi de Carreau (13, 4)
+Carte de N : 
+Roi de Carreau (13, 4)
+Carte de S : 
+Huit de Carreau (8, 4)
 
- S gagne les cartes :
-Valet de Carreau (11, 4) Roi de Carreau (13, 4)
-----
-Carte de N :neuf de Carreau (9, 4)Carte de S :Dame de Carreau (12, 4)
 
- S gagne les cartes :
-neuf de Carreau (9, 4) Dame de Carreau (12, 4)
+ N gagne les cartes : 
+Huit de Carreau (8, 4) Roi de Carreau (13, 4)
 ----
-Carte de N :Sept de Carreau (7, 4)Carte de S :Dix de Carreau (10, 4)
+Carte de N : 
+Dame de Carreau (12, 4)
+Carte de S : 
+Six de Carreau (6, 4)
 
- S gagne les cartes :
-Sept de Carreau (7, 4) Dix de Carreau (10, 4)
-----
-Carte de N :Cinq de Carreau (5, 4)Carte de S :Huit de Carreau (8, 4)
 
- S gagne les cartes :
-Cinq de Carreau (5, 4) Huit de Carreau (8, 4)
-----
-Carte de N :Quatre de Carreau (4, 4)Carte de S :Six de Carreau (6, 4)
-
- S gagne les cartes :
-Quatre de Carreau (4, 4) Six de Carreau (6, 4)
-----
-Carte de N :Trois de Carreau (3, 4)Carte de S :Roi de Coeur (13, 3)
-
- S gagne les cartes :
-Trois de Carreau (3, 4) Roi de Coeur (13, 3)
-----
-Carte de N :Deux de Carreau (2, 4)Carte de S :Dix de Coeur (10, 3)
-
- S gagne les cartes :
-Deux de Carreau (2, 4) Dix de Coeur (10, 3)
-----
-Carte de N :As de Carreau (1, 4)Carte de S :neuf de Coeur (9, 3)
-
- S gagne les cartes :
-As de Carreau (1, 4) neuf de Coeur (9, 3)
-----
-Carte de N :Dame de Coeur (12, 3)Carte de S :Huit de Coeur (8, 3)
-
- N gagne les cartes :
-Huit de Coeur (8, 3)Dame de Coeur (12, 3)
-----
-Carte de N :Valet de Coeur (11, 3)Carte de S :Six de Coeur (6, 3)
-
- N gagne les cartes :
-Six de Coeur (6, 3)Valet de Coeur (11, 3)
-----
-Carte de N :Sept de Coeur (7, 3)Carte de S :Cinq de Coeur (5, 3)
-
- N gagne les cartes :
-Cinq de Coeur (5, 3)Sept de Coeur (7, 3)
-----
-Carte de N :Trois de Coeur (3, 3)Carte de S :Quatre de Coeur (4, 3)
-
- S gagne les cartes :
-Trois de Coeur (3, 3) Quatre de Coeur (4, 3)
-----
-Carte de N :Deux de Coeur (2, 3)Carte de S :Dame de Trefle (12, 2)
-
- S gagne les cartes :
-Deux de Coeur (2, 3) Dame de Trefle (12, 2)
-----
-Carte de N :As de Coeur (1, 3)Carte de S :Valet de Trefle (11, 2)
-
- S gagne les cartes :
-As de Coeur (1, 3) Valet de Trefle (11, 2)
-----
-Carte de N :Roi de Trefle (13, 2)Carte de S :Dix de Trefle (10, 2)
-
- N gagne les cartes :
-Dix de Trefle (10, 2)Roi de Trefle (13, 2)
-----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Sept de Trefle (7, 2)
-
- N gagne les cartes :
-Sept de Trefle (7, 2)neuf de Trefle (9, 2)
-----
-Carte de N :Huit de Trefle (8, 2)Carte de S :Cinq de Trefle (5, 2)
-
- N gagne les cartes :
-Cinq de Trefle (5, 2)Huit de Trefle (8, 2)
-----
-Carte de N :Six de Trefle (6, 2)Carte de S :Quatre de Trefle (4, 2)
-
- N gagne les cartes :
-Quatre de Trefle (4, 2)Six de Trefle (6, 2)
-----
-Carte de N :Deux de Trefle (2, 2)Carte de S :Trois de Trefle (3, 2)
-
- S gagne les cartes :
-Deux de Trefle (2, 2) Trois de Trefle (3, 2)
-----
-Carte de N :Dame de Pique (12, 1)Carte de S :As de Trefle (1, 2)
-
- N gagne les cartes :
-As de Trefle (1, 2)Dame de Pique (12, 1)
-----
-Carte de N :Dix de Pique (10, 1)Carte de S :Roi de Pique (13, 1)
-
- S gagne les cartes :
-Dix de Pique (10, 1) Roi de Pique (13, 1)
-----
-Carte de N :Huit de Pique (8, 1)Carte de S :Valet de Pique (11, 1)
-
- S gagne les cartes :
-Huit de Pique (8, 1) Valet de Pique (11, 1)
-----
-Carte de N :Six de Pique (6, 1)Carte de S :neuf de Pique (9, 1)
-
- S gagne les cartes :
-Six de Pique (6, 1) neuf de Pique (9, 1)
-----
-Carte de N :Trois de Pique (3, 1)Carte de S :Sept de Pique (7, 1)
-
- S gagne les cartes :
-Trois de Pique (3, 1) Sept de Pique (7, 1)
-----
-Carte de N :Deux de Pique (2, 1)Carte de S :Cinq de Pique (5, 1)
-
- S gagne les cartes :
-Deux de Pique (2, 1) Cinq de Pique (5, 1)
-----
-Carte de N :As de Pique (1, 1)Carte de S :Quatre de Pique (4, 1)
-
- S gagne les cartes :
-As de Pique (1, 1) Quatre de Pique (4, 1)
-----
-Carte de N :Huit de Coeur (8, 3)Carte de S :Valet de Carreau (11, 4)
-
- S gagne les cartes :
-Huit de Coeur (8, 3) Valet de Carreau (11, 4)
-----
-Carte de N :Dame de Coeur (12, 3)Carte de S :Roi de Carreau (13, 4)
-
- S gagne les cartes :
-Dame de Coeur (12, 3) Roi de Carreau (13, 4)
-----
-Carte de N :Six de Coeur (6, 3)Carte de S :neuf de Carreau (9, 4)
-
- S gagne les cartes :
-Six de Coeur (6, 3) neuf de Carreau (9, 4)
-----
-Carte de N :Valet de Coeur (11, 3)Carte de S :Dame de Carreau (12, 4)
-
- S gagne les cartes :
-Valet de Coeur (11, 3) Dame de Carreau (12, 4)
-----
-Carte de N :Cinq de Coeur (5, 3)Carte de S :Sept de Carreau (7, 4)
-
- S gagne les cartes :
-Cinq de Coeur (5, 3) Sept de Carreau (7, 4)
-----
-Carte de N :Sept de Coeur (7, 3)Carte de S :Dix de Carreau (10, 4)
-
- S gagne les cartes :
-Sept de Coeur (7, 3) Dix de Carreau (10, 4)
-----
-Carte de N :Dix de Trefle (10, 2)Carte de S :Cinq de Carreau (5, 4)
-
- N gagne les cartes :
-Cinq de Carreau (5, 4)Dix de Trefle (10, 2)
-----
-Carte de N :Roi de Trefle (13, 2)Carte de S :Huit de Carreau (8, 4)
-
- N gagne les cartes :
-Huit de Carreau (8, 4)Roi de Trefle (13, 2)
-----
-Carte de N :Sept de Trefle (7, 2)Carte de S :Quatre de Carreau (4, 4)
-
- N gagne les cartes :
-Quatre de Carreau (4, 4)Sept de Trefle (7, 2)
-----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Six de Carreau (6, 4)
-
- N gagne les cartes :
-Six de Carreau (6, 4)neuf de Trefle (9, 2)
-----
-Carte de N :Cinq de Trefle (5, 2)Carte de S :Trois de Carreau (3, 4)
-
- N gagne les cartes :
-Trois de Carreau (3, 4)Cinq de Trefle (5, 2)
-----
-Carte de N :Huit de Trefle (8, 2)Carte de S :Roi de Coeur (13, 3)
-
- S gagne les cartes :
-Huit de Trefle (8, 2) Roi de Coeur (13, 3)
-----
-Carte de N :Quatre de Trefle (4, 2)Carte de S :Deux de Carreau (2, 4)
-
- N gagne les cartes :
-Deux de Carreau (2, 4)Quatre de Trefle (4, 2)
-----
-Carte de N :Six de Trefle (6, 2)Carte de S :Dix de Coeur (10, 3)
-
- S gagne les cartes :
-Six de Trefle (6, 2) Dix de Coeur (10, 3)
-----
-Carte de N :As de Trefle (1, 2)Carte de S :As de Carreau (1, 4)
-** bataille ** 
-Carte de N :Cinq de Carreau (5, 4)Carte de S :Trois de Coeur (3, 3)
- N gagne les cartes :
-As de Carreau (1, 4)As de Trefle (1, 2)
-neuf de Coeur (9, 3)Dame de Pique (12, 1)
-Trois de Coeur (3, 3)Cinq de Carreau (5, 4)
-----
-Carte de N :Dix de Trefle (10, 2)Carte de S :Quatre de Coeur (4, 3)
-
- N gagne les cartes :
-Quatre de Coeur (4, 3)Dix de Trefle (10, 2)
-----
-Carte de N :Huit de Carreau (8, 4)Carte de S :Deux de Coeur (2, 3)
-
- N gagne les cartes :
-Deux de Coeur (2, 3)Huit de Carreau (8, 4)
-----
-Carte de N :Roi de Trefle (13, 2)Carte de S :Dame de Trefle (12, 2)
-
- N gagne les cartes :
-Dame de Trefle (12, 2)Roi de Trefle (13, 2)
-----
-Carte de N :Quatre de Carreau (4, 4)Carte de S :As de Coeur (1, 3)
-
- N gagne les cartes :
-As de Coeur (1, 3)Quatre de Carreau (4, 4)
-----
-Carte de N :Sept de Trefle (7, 2)Carte de S :Valet de Trefle (11, 2)
-
- S gagne les cartes :
-Sept de Trefle (7, 2) Valet de Trefle (11, 2)
-----
-Carte de N :Six de Carreau (6, 4)Carte de S :Deux de Trefle (2, 2)
-
- N gagne les cartes :
-Deux de Trefle (2, 2)Six de Carreau (6, 4)
-----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Trois de Trefle (3, 2)
-
- N gagne les cartes :
-Trois de Trefle (3, 2)neuf de Trefle (9, 2)
-----
-Carte de N :Trois de Carreau (3, 4)Carte de S :Dix de Pique (10, 1)
-
- S gagne les cartes :
-Trois de Carreau (3, 4) Dix de Pique (10, 1)
-----
-Carte de N :Cinq de Trefle (5, 2)Carte de S :Roi de Pique (13, 1)
-
- S gagne les cartes :
-Cinq de Trefle (5, 2) Roi de Pique (13, 1)
-----
-Carte de N :Deux de Carreau (2, 4)Carte de S :Huit de Pique (8, 1)
-
- S gagne les cartes :
-Deux de Carreau (2, 4) Huit de Pique (8, 1)
-----
-Carte de N :Quatre de Trefle (4, 2)Carte de S :Valet de Pique (11, 1)
-
- S gagne les cartes :
-Quatre de Trefle (4, 2) Valet de Pique (11, 1)
-----
-Carte de N :As de Carreau (1, 4)Carte de S :Six de Pique (6, 1)
-
- S gagne les cartes :
-As de Carreau (1, 4) Six de Pique (6, 1)
-----
-Carte de N :As de Trefle (1, 2)Carte de S :neuf de Pique (9, 1)
-
- S gagne les cartes :
-As de Trefle (1, 2) neuf de Pique (9, 1)
-----
-Carte de N :neuf de Coeur (9, 3)Carte de S :Trois de Pique (3, 1)
-
- N gagne les cartes :
-Trois de Pique (3, 1)neuf de Coeur (9, 3)
-----
-Carte de N :Dame de Pique (12, 1)Carte de S :Sept de Pique (7, 1)
-
- N gagne les cartes :
-Sept de Pique (7, 1)Dame de Pique (12, 1)
-----
-Carte de N :Trois de Coeur (3, 3)Carte de S :Deux de Pique (2, 1)
-
- N gagne les cartes :
-Deux de Pique (2, 1)Trois de Coeur (3, 3)
-----
-Carte de N :Cinq de Carreau (5, 4)Carte de S :Cinq de Pique (5, 1)
-** bataille ** 
-Carte de N :Dix de Trefle (10, 2)Carte de S :Quatre de Pique (4, 1)
- N gagne les cartes :
-Cinq de Pique (5, 1)Cinq de Carreau (5, 4)
-As de Pique (1, 1)Quatre de Coeur (4, 3)
-Quatre de Pique (4, 1)Dix de Trefle (10, 2)
-----
-Carte de N :Deux de Coeur (2, 3)Carte de S :Huit de Coeur (8, 3)
-
- S gagne les cartes :
-Deux de Coeur (2, 3) Huit de Coeur (8, 3)
-----
-Carte de N :Huit de Carreau (8, 4)Carte de S :Valet de Carreau (11, 4)
-
- S gagne les cartes :
-Huit de Carreau (8, 4) Valet de Carreau (11, 4)
-----
-Carte de N :Dame de Trefle (12, 2)Carte de S :Dame de Coeur (12, 3)
-** bataille ** 
-Carte de N :As de Coeur (1, 3)Carte de S :Six de Coeur (6, 3)
- S gagne les cartes :
-Dame de Trefle (12, 2) Dame de Coeur (12, 3)
-Roi de Trefle (13, 2) Roi de Carreau (13, 4)
-As de Coeur (1, 3) Six de Coeur (6, 3)
-----
-Carte de N :Quatre de Carreau (4, 4)Carte de S :neuf de Carreau (9, 4)
-
- S gagne les cartes :
-Quatre de Carreau (4, 4) neuf de Carreau (9, 4)
-----
-Carte de N :Deux de Trefle (2, 2)Carte de S :Valet de Coeur (11, 3)
-
- S gagne les cartes :
-Deux de Trefle (2, 2) Valet de Coeur (11, 3)
-----
-Carte de N :Six de Carreau (6, 4)Carte de S :Dame de Carreau (12, 4)
-
- S gagne les cartes :
+ N gagne les cartes : 
 Six de Carreau (6, 4) Dame de Carreau (12, 4)
 ----
-Carte de N :Trois de Trefle (3, 2)Carte de S :Cinq de Coeur (5, 3)
+Carte de N : 
+Valet de Carreau (11, 4)
+Carte de S : 
+Cinq de Carreau (5, 4)
 
- S gagne les cartes :
-Trois de Trefle (3, 2) Cinq de Coeur (5, 3)
+
+ N gagne les cartes : 
+Cinq de Carreau (5, 4) Valet de Carreau (11, 4)
 ----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Sept de Carreau (7, 4)
+Carte de N : 
+Dix de Carreau (10, 4)
+Carte de S : 
+Quatre de Carreau (4, 4)
 
- N gagne les cartes :
-Sept de Carreau (7, 4)neuf de Trefle (9, 2)
+
+ N gagne les cartes : 
+Quatre de Carreau (4, 4) Dix de Carreau (10, 4)
 ----
-Carte de N :Trois de Pique (3, 1)Carte de S :Sept de Coeur (7, 3)
+Carte de N : 
+neuf de Carreau (9, 4)
+Carte de S : 
+Deux de Carreau (2, 4)
 
- S gagne les cartes :
-Trois de Pique (3, 1) Sept de Coeur (7, 3)
+
+ N gagne les cartes : 
+Deux de Carreau (2, 4) neuf de Carreau (9, 4)
 ----
-Carte de N :neuf de Coeur (9, 3)Carte de S :Dix de Carreau (10, 4)
+Carte de N : 
+Sept de Carreau (7, 4)
+Carte de S : 
+As de Carreau (1, 4)
 
- S gagne les cartes :
-neuf de Coeur (9, 3) Dix de Carreau (10, 4)
+
+ N gagne les cartes : 
+As de Carreau (1, 4) Sept de Carreau (7, 4)
 ----
-Carte de N :Sept de Pique (7, 1)Carte de S :Huit de Trefle (8, 2)
+Carte de N : 
+Trois de Carreau (3, 4)
+Carte de S : 
+neuf de Coeur (9, 3)
 
- S gagne les cartes :
-Sept de Pique (7, 1) Huit de Trefle (8, 2)
+
+ S gagne les cartes : 
+Trois de Carreau (3, 4) neuf de Coeur (9, 3)
 ----
-Carte de N :Dame de Pique (12, 1)Carte de S :Roi de Coeur (13, 3)
+Carte de N : 
+Roi de Coeur (13, 3)
+Carte de S : 
+Huit de Coeur (8, 3)
 
- S gagne les cartes :
-Dame de Pique (12, 1) Roi de Coeur (13, 3)
+
+ N gagne les cartes : 
+Huit de Coeur (8, 3) Roi de Coeur (13, 3)
 ----
-Carte de N :Deux de Pique (2, 1)Carte de S :Six de Trefle (6, 2)
+Carte de N : 
+Dame de Coeur (12, 3)
+Carte de S : 
+Six de Coeur (6, 3)
 
- S gagne les cartes :
-Deux de Pique (2, 1) Six de Trefle (6, 2)
+
+ N gagne les cartes : 
+Six de Coeur (6, 3) Dame de Coeur (12, 3)
 ----
-Carte de N :Trois de Coeur (3, 3)Carte de S :Dix de Coeur (10, 3)
+Carte de N : 
+Valet de Coeur (11, 3)
+Carte de S : 
+Quatre de Coeur (4, 3)
 
- S gagne les cartes :
+
+ N gagne les cartes : 
+Quatre de Coeur (4, 3) Valet de Coeur (11, 3)
+----
+Carte de N : 
+Dix de Coeur (10, 3)
+Carte de S : 
+Trois de Coeur (3, 3)
+
+
+ N gagne les cartes : 
 Trois de Coeur (3, 3) Dix de Coeur (10, 3)
 ----
-Carte de N :Cinq de Pique (5, 1)Carte de S :Sept de Trefle (7, 2)
+Carte de N : 
+Sept de Coeur (7, 3)
+Carte de S : 
+Deux de Coeur (2, 3)
 
- S gagne les cartes :
-Cinq de Pique (5, 1) Sept de Trefle (7, 2)
-----
-Carte de N :Cinq de Carreau (5, 4)Carte de S :Valet de Trefle (11, 2)
 
- S gagne les cartes :
-Cinq de Carreau (5, 4) Valet de Trefle (11, 2)
+ N gagne les cartes : 
+Deux de Coeur (2, 3) Sept de Coeur (7, 3)
 ----
-Carte de N :As de Pique (1, 1)Carte de S :Trois de Carreau (3, 4)
+Carte de N : 
+Cinq de Coeur (5, 3)
+Carte de S : 
+As de Coeur (1, 3)
 
- S gagne les cartes :
-As de Pique (1, 1) Trois de Carreau (3, 4)
-----
-Carte de N :Quatre de Coeur (4, 3)Carte de S :Dix de Pique (10, 1)
 
- S gagne les cartes :
-Quatre de Coeur (4, 3) Dix de Pique (10, 1)
+ N gagne les cartes : 
+As de Coeur (1, 3) Cinq de Coeur (5, 3)
 ----
-Carte de N :Quatre de Pique (4, 1)Carte de S :Cinq de Trefle (5, 2)
+Carte de N : 
+Roi de Trefle (13, 2)
+Carte de S : 
+Dix de Trefle (10, 2)
 
- S gagne les cartes :
-Quatre de Pique (4, 1) Cinq de Trefle (5, 2)
-----
-Carte de N :Dix de Trefle (10, 2)Carte de S :Roi de Pique (13, 1)
 
- S gagne les cartes :
-Dix de Trefle (10, 2) Roi de Pique (13, 1)
+ N gagne les cartes : 
+Dix de Trefle (10, 2) Roi de Trefle (13, 2)
 ----
-Carte de N :Sept de Carreau (7, 4)Carte de S :Deux de Carreau (2, 4)
+Carte de N : 
+Dame de Trefle (12, 2)
+Carte de S : 
+Sept de Trefle (7, 2)
 
- N gagne les cartes :
-Deux de Carreau (2, 4)Sept de Carreau (7, 4)
-----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Huit de Pique (8, 1)
 
- N gagne les cartes :
-Huit de Pique (8, 1)neuf de Trefle (9, 2)
+ N gagne les cartes : 
+Sept de Trefle (7, 2) Dame de Trefle (12, 2)
 ----
-Carte de N :Deux de Carreau (2, 4)Carte de S :Quatre de Trefle (4, 2)
+Carte de N : 
+Valet de Trefle (11, 2)
+Carte de S : 
+Cinq de Trefle (5, 2)
 
- S gagne les cartes :
-Deux de Carreau (2, 4) Quatre de Trefle (4, 2)
-----
-Carte de N :Sept de Carreau (7, 4)Carte de S :Valet de Pique (11, 1)
 
- S gagne les cartes :
-Sept de Carreau (7, 4) Valet de Pique (11, 1)
+ N gagne les cartes : 
+Cinq de Trefle (5, 2) Valet de Trefle (11, 2)
 ----
-Carte de N :Huit de Pique (8, 1)Carte de S :As de Carreau (1, 4)
+Carte de N : 
+neuf de Trefle (9, 2)
+Carte de S : 
+Quatre de Trefle (4, 2)
 
- N gagne les cartes :
-As de Carreau (1, 4)Huit de Pique (8, 1)
-----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Six de Pique (6, 1)
 
- N gagne les cartes :
-Six de Pique (6, 1)neuf de Trefle (9, 2)
+ N gagne les cartes : 
+Quatre de Trefle (4, 2) neuf de Trefle (9, 2)
 ----
-Carte de N :As de Carreau (1, 4)Carte de S :As de Trefle (1, 2)
-** bataille ** 
-Carte de N :Six de Pique (6, 1)Carte de S :Deux de Coeur (2, 3)
- N gagne les cartes :
-As de Trefle (1, 2)As de Carreau (1, 4)
-neuf de Pique (9, 1)Huit de Pique (8, 1)
-Deux de Coeur (2, 3)Six de Pique (6, 1)
-----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Huit de Coeur (8, 3)
+Carte de N : 
+Huit de Trefle (8, 2)
+Carte de S : 
+Trois de Trefle (3, 2)
 
- N gagne les cartes :
-Huit de Coeur (8, 3)neuf de Trefle (9, 2)
-----
-Carte de N :As de Trefle (1, 2)Carte de S :Huit de Carreau (8, 4)
 
- S gagne les cartes :
-As de Trefle (1, 2) Huit de Carreau (8, 4)
+ N gagne les cartes : 
+Trois de Trefle (3, 2) Huit de Trefle (8, 2)
 ----
-Carte de N :As de Carreau (1, 4)Carte de S :Valet de Carreau (11, 4)
+Carte de N : 
+Six de Trefle (6, 2)
+Carte de S : 
+Deux de Trefle (2, 2)
 
- S gagne les cartes :
-As de Carreau (1, 4) Valet de Carreau (11, 4)
-----
-Carte de N :neuf de Pique (9, 1)Carte de S :Dame de Trefle (12, 2)
 
- S gagne les cartes :
-neuf de Pique (9, 1) Dame de Trefle (12, 2)
+ N gagne les cartes : 
+Deux de Trefle (2, 2) Six de Trefle (6, 2)
 ----
-Carte de N :Huit de Pique (8, 1)Carte de S :Dame de Coeur (12, 3)
+Carte de N : 
+Roi de Pique (13, 1)
+Carte de S : 
+As de Trefle (1, 2)
 
- S gagne les cartes :
-Huit de Pique (8, 1) Dame de Coeur (12, 3)
-----
-Carte de N :Deux de Coeur (2, 3)Carte de S :Roi de Trefle (13, 2)
 
- S gagne les cartes :
-Deux de Coeur (2, 3) Roi de Trefle (13, 2)
+ N gagne les cartes : 
+As de Trefle (1, 2) Roi de Pique (13, 1)
 ----
-Carte de N :Six de Pique (6, 1)Carte de S :Roi de Carreau (13, 4)
+Carte de N : 
+Dame de Pique (12, 1)
+Carte de S : 
+neuf de Pique (9, 1)
 
- S gagne les cartes :
-Six de Pique (6, 1) Roi de Carreau (13, 4)
-----
-Carte de N :Huit de Coeur (8, 3)Carte de S :As de Coeur (1, 3)
 
- N gagne les cartes :
-As de Coeur (1, 3)Huit de Coeur (8, 3)
+ N gagne les cartes : 
+neuf de Pique (9, 1) Dame de Pique (12, 1)
 ----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Six de Coeur (6, 3)
+Carte de N : 
+Valet de Pique (11, 1)
+Carte de S : 
+Sept de Pique (7, 1)
 
- N gagne les cartes :
-Six de Coeur (6, 3)neuf de Trefle (9, 2)
-----
-Carte de N :As de Coeur (1, 3)Carte de S :Quatre de Carreau (4, 4)
 
- S gagne les cartes :
-As de Coeur (1, 3) Quatre de Carreau (4, 4)
+ N gagne les cartes : 
+Sept de Pique (7, 1) Valet de Pique (11, 1)
 ----
-Carte de N :Huit de Coeur (8, 3)Carte de S :neuf de Carreau (9, 4)
+Carte de N : 
+Dix de Pique (10, 1)
+Carte de S : 
+Six de Pique (6, 1)
 
- S gagne les cartes :
-Huit de Coeur (8, 3) neuf de Carreau (9, 4)
-----
-Carte de N :Six de Coeur (6, 3)Carte de S :Deux de Trefle (2, 2)
 
- N gagne les cartes :
-Deux de Trefle (2, 2)Six de Coeur (6, 3)
+ N gagne les cartes : 
+Six de Pique (6, 1) Dix de Pique (10, 1)
 ----
-Carte de N :neuf de Trefle (9, 2)Carte de S :Valet de Coeur (11, 3)
+Carte de N : 
+Huit de Pique (8, 1)
+Carte de S : 
+Quatre de Pique (4, 1)
 
- S gagne les cartes :
-neuf de Trefle (9, 2) Valet de Coeur (11, 3)
-----
-Carte de N :Deux de Trefle (2, 2)Carte de S :Six de Carreau (6, 4)
 
- S gagne les cartes :
-Deux de Trefle (2, 2) Six de Carreau (6, 4)
+ N gagne les cartes : 
+Quatre de Pique (4, 1) Huit de Pique (8, 1)
 ----
-Carte de N :Six de Coeur (6, 3)Carte de S :Dame de Carreau (12, 4)
+Carte de N : 
+Cinq de Pique (5, 1)
+Carte de S : 
+Deux de Pique (2, 1)
 
- S gagne les cartes :
-Six de Coeur (6, 3) Dame de Carreau (12, 4)
+
+ N gagne les cartes : 
+Deux de Pique (2, 1) Cinq de Pique (5, 1)
 ----
- >>>>>>>>>>>>> le gagnant de ce jeu est : S
+Carte de N : 
+Trois de Pique (3, 1)
+Carte de S : 
+As de Pique (1, 1)
+
+
+ N gagne les cartes : 
+As de Pique (1, 1) Trois de Pique (3, 1)
+----
+Carte de N : 
+Huit de Carreau (8, 4)
+Carte de S : 
+Trois de Carreau (3, 4)
+
+
+ N gagne les cartes : 
+Trois de Carreau (3, 4) Huit de Carreau (8, 4)
+----
+Carte de N : 
+Roi de Carreau (13, 4)
+Carte de S : 
+neuf de Coeur (9, 3)
+
+
+ N gagne les cartes : 
+neuf de Coeur (9, 3) Roi de Carreau (13, 4)
+----
+ >>>>>>>>>>>>> le gagnant de ce jeu est : N
 fin de partie
