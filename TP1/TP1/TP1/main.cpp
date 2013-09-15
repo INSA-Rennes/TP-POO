@@ -66,12 +66,10 @@ int main()
         std::cout << std::endl;
 
         // detection d'une bataille (i.e. les deux cartes ont la meme hauteur)
-        while(0 != Nt && 0 != St && Nt->egale(*St))
-        {
+        while(0 != Nt && 0 != St && Nt->egale(*St)) {
             std::cout << "** bataille ** " << std::endl;
             Nt = Nt->getSucc();
-            if(0 != Nt)
-            {
+            if(0 != Nt) {
                 // avancer de deux cartes pour N !
                 Nt = Nt->getSucc(); 
 				std::cout << "Carte de N :";
@@ -105,15 +103,12 @@ int main()
                 Carte* Sec = Carte::getSTete();
                 Sec->changerProp(); 
             }
-        }
-        else if(Nt->supAbs(*St))
-        {
+        } else if(Nt->supAbs(*St)) {
             // comparaison des dernieres cartes : S a perdu cette bataille
             std::cout << std::endl;
             std::cout << " N gagne les cartes :" << std::endl;
             Carte* Ss = St->getSucc(); // premiere Carte non gagnee
-            while (Carte::getSTete() != Ss)
-            {
+            while (Carte::getSTete() != Ss) {
                 Carte* Sec = Carte::getSTete();
                 // On met les cartes en question a la fin du paquet N
                 Sec->changerProp();
@@ -124,16 +119,13 @@ int main()
                 Nec->afficher();
                 std::cout << std::endl;
             }
-                std::cout << "----" << std::endl;
-        }
-        else
-        {
+            std::cout << "----" << std::endl;
+        } else {
             // N a perdu cette bataille
             std::cout << std::endl;
             std::cout << " S gagne les cartes :"  << std::endl;
             Carte* Ns = Nt->getSucc(); // premiere carte non gagnee 
-            while(Carte::getNTete() != Ns)
-            {
+            while(Carte::getNTete() != Ns) {
                 Carte* Nec = Carte::getNTete();
                 // On met les cartes en question a la fin du paquet S
                 Nec->changerProp();
@@ -141,6 +133,7 @@ int main()
                 Sec->passerDerriere(); 
                 // puis on affiche la situation
                 Nec->afficher();
+				std::cout << " ";
                 Sec->afficher();
                 std::cout << std::endl;
             }
@@ -148,21 +141,17 @@ int main()
         }
     }
     std::cout << " >>>>>>>>>>>>> le gagnant de ce jeu est : ";
-    if(0 == Carte::getNTete())
-    {
+    if(0 == Carte::getNTete()) {
         // N a perdu les jeux
         std::cout << 'S' << std::endl;
         Carte* Sec = Carte::getSTete();
-        while(0 != Sec)
-        {
+        while(0 != Sec) {
             // destruction du paquet de S
             Carte* Ss = Sec->getSucc();
             delete Sec;
             Sec = Ss;
         }
-    }
-    else
-    {
+    } else {
         // S a perdu les jeux
         std::cout << 'N' << std::endl;
         Carte* Nec = Carte::getNTete();
