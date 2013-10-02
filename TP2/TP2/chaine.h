@@ -1,3 +1,5 @@
+#include <iostream>
+#include <string>
 
 class chaine {
 private:
@@ -6,8 +8,8 @@ private:
 
 public:
 	chaine();
-	chaine(char *);
-	chaine(char &);
+	chaine(const char *);
+	chaine(const char &);
 	~chaine();
 
 	chaine sous_chaine(int ind1, int ind2);

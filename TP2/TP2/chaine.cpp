@@ -5,19 +5,20 @@ chaine::chaine() {
 	string = "";
  }
 
-chaine::chaine(char * c) {
-	string = c;
-	size = strlen(*c);
+chaine::chaine(const char * c) {
+	int size = 0;
+	while(c[size] != '\0') {
+		size++;
+	}
+	
 }
 
-chaine::chaine(char & c) {
-	string = &c;
-	size = strlen(c);
+chaine::chaine(const chaine & c) {
+
 }
 
 chaine::~chaine() {
-	string = 0;
-	size = 0;
+	std::cout << "delete chaine";
 }
 
 chaine chaine::sous_chaine(int ind1, int ind2) {
@@ -53,7 +54,12 @@ bool chaine::operator==(const chaine& ch) const {
 char chaine::charAt(int i) const {
 	return string[i];
 }
-	bool operator<(const chaine& ch) const;
-	bool operator>(const chaine& ch) const;
-	bool operator<=(const chaine& ch) const;
-	bool operator>=(const chaine& ch) const;
+
+bool chaine::operator<(const chaine& ch) const {
+
+}
+bool chaine::operator>(const chaine& ch) const {
+
+}
+bool chaine::operator<=(const chaine& ch) const;
+bool chaine::operator>=(const chaine& ch) const;
