@@ -21,6 +21,6 @@ void main() {
 	
 	chaine newch1 = ch3.sous_chaine(0, ch1.size());
 	assert(newch1 == ch1);
-	chaine newch1 = ch3.sous_chaine('t', 't');
+	newch1 = ch3.sous_chaine('t', 't');
 	assert(newch1 == ch1);
 }
