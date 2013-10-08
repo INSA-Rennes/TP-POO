@@ -1,5 +1,10 @@
+/**
+ * \brief Main du TP2.
+ */
+
 #include "chaine.h"
 #include <cassert>
+
 
 void main() {
 	char *ch = "test";
