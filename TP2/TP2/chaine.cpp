@@ -8,7 +8,6 @@
  */
 #include "chaine.h"
 
-
 /**
  * \fn chaine()
  * \brief Constructeur par defaut de chaine.
@@ -19,7 +18,7 @@
 chaine::chaine() {
 	this->length = 0;
 	this->string = "";
- }
+}
 
 /**
  * \fn chaine(const char *)
@@ -33,7 +32,7 @@ chaine::chaine(const char * c) {
 	}
 	this->string = (char*)malloc(this->length);
 	int i;
-	for (i=0; i<this->length; i++) {
+	for(i=0; i<this->length; i++) {
 		this->string[i] = c[i];
 	}
 }
@@ -47,7 +46,7 @@ chaine::chaine(const chaine & c) {
 	this->length = c.size();
 	this->string = (char*)malloc(this->length);
 	int i;
-	for (i=0; i<this->length; i++) {
+	for(i=0; i<this->length; i++) {
 		string[i] = c.charAt(i);
 	}
 }
@@ -57,14 +56,15 @@ chaine::chaine(const chaine & c) {
  * \brief Destructeur de chaine.
  */
 chaine::~chaine() {
-	// TODO
+	delete[] this->string;
+	// same as free(this->string); ?
 }
 
 /**
  * \fn chaine chaine::sous_chaine(int ind1, int ind2)
  * \brief Donne la sous chaine de la chaine courante.
  * \param[in] ind1 Indice de debut.
- * \param[in] ind2 Indice de fin de chaine + 1.
+ * \param[in] ind2 Indice de fin de chaine + 1 (non inclus).
  * \return La sous chaine.
  */
 chaine chaine::sous_chaine(int ind1, int ind2) {
@@ -81,8 +81,8 @@ chaine chaine::sous_chaine(int ind1, int ind2) {
 /**
  * \fn chaine chaine::sous_chaine(char deb, char fin) 
  * \brief Donne la sous chaine de la chaine courante.
- * \param[in] deb Caractere de debut de la chaine.
- * \param[in] fin Caractere de fin de chaine.
+ * \param[in] deb Caractere de debut de la sous chaine.
+ * \param[in] fin Caractere de fin de la sous chaine.
  * \return La sous chaine.
  */
 chaine chaine::sous_chaine(char deb, char fin) {
