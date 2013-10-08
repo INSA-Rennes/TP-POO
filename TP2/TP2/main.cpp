@@ -12,15 +12,18 @@ void main() {
 	char c2 = ch2.charAt(2);
 	assert(c2 == 's');
 
-	chaine ch3 = ch1+ch2;
-	assert(ch3.size() == 2*ch2.size());
+	chaine ch3 = ch1 + ch2;
+	assert(ch3.size() == (2 * ch2.size()));
 
 	assert(ch3 != ch1);
 	assert(ch3 > ch1);
 	assert(ch3 >= ch1);
 	
 	chaine newch1 = ch3.sous_chaine(0, ch1.size());
+	assert(newch1.size() == ch1.size());
 	assert(newch1 == ch1);
 	newch1 = ch3.sous_chaine('t', 't');
 	assert(newch1 == ch1);
+
+	system("pause");
 }
