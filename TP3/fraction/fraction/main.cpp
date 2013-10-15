@@ -2,6 +2,9 @@
 #include <cassert>
 #include "stdafx.h"
 
+/**
+ * Tests
+ */
 void main() {
 	try {
 		Fraction(5, 0);
@@ -12,6 +15,11 @@ void main() {
 	Fraction f2 = Fraction(0, 2);
 	try {
 		Fraction mult = f1 / f2;
+		assert(false);
+	} catch(std::exception& e) {}
+
+	try {
+		Fraction add = f1 + f2;
 		assert(false);
 	} catch(std::exception& e) {}
 }
