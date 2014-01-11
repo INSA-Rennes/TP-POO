@@ -1,6 +1,4 @@
 #include "PionDouble.h"
-#include "PionBlanc.h"
-#include "PionNoir.h"
 #include <iostream>
 #include <stdio.h>
 
