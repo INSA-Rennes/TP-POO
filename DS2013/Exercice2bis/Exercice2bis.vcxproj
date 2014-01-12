@@ -79,12 +79,17 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Exercice2\main.cpp" />
-    <ClCompile Include="..\Exercice2\Pion.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pion.cpp" />
+    <ClCompile Include="PionBlanc.cpp" />
+    <ClCompile Include="PionDouble.cpp" />
+    <ClCompile Include="PionNoir.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Exercice2\Pion.h" />
-    <ClInclude Include="..\Exercice2\PionDouble.h" />
+    <ClInclude Include="Pion.h" />
+    <ClInclude Include="PionBlanc.h" />
+    <ClInclude Include="PionDouble.h" />
+    <ClInclude Include="PionNoir.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

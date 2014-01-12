@@ -22,8 +22,10 @@ void PionDouble::mutation() {
 	std::string ident = this->getIdent();
 	if(this->_mode == TPionBlanc) {
 		this->pionBN = new PionNoir(ident, x, y);
+		this->_mode = TPionNoir;
 	} else {
 		this->pionBN = new PionBlanc(ident, x, y);
+		this->_mode = TPionBlanc;
 	}
 }
 
@@ -33,10 +35,10 @@ PionDouble::PionDouble(std::string n, int x, int y) {
 }
 
 std::string PionDouble::propriete() const {
-	return "Pion double";
+	return this->pionBN->propriete();
 }
 
 std::ostream& operator<<(std::ostream& os, const PionDouble& p) {
-	os << *p.pionBN;
+	os << p.getIdent() << " (" << p.getX() << ", " << p.getY() << ") : " << p.propriete() << std::endl;
 	return os;
 }

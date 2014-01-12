@@ -7,4 +7,10 @@
 #include "Pion.h"
 #include "PionDouble.h"
 
+class PionBlanc: public Pion {
+public:
+	PionBlanc(std::string n, int x, int y);
+	virtual std::string propriete() const;
+};
+
 #endif
