@@ -1,5 +1,5 @@
 #include "Question1.h"
-
+/*
 void main() {
 	D doc;
 	B::f(doc);
@@ -7,4 +7,4 @@ void main() {
 	B::h(&doc);
 
 	system("pause");
-}
+}*/

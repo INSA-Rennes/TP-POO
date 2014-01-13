@@ -1,11 +1,15 @@
 #include <iostream>
-/*
+#include <exception>
+
 using namespace std;
 
 class MonException: public exception {
+private:
+	int val;
+
 public:
 	MonException():val(0) {
-		cout << "Cons Base" << endl;
+		cout << "MonException()" << endl;
 	}
 	MonException(const MonException& mex) {
 		val = mex.val;
@@ -22,12 +26,15 @@ public:
 class Test {
 public:
 	void f(int v) {
-		if(v==2012) throw MonException(v);
-		else throw exception();
+		if(v==2012) {
+			throw MonException(v);
+		} else {
+			throw exception();
+		}
 	}
 };
 
-void terminaison() {
+void terminaison(void) {
 	cout << "Exception non geree !!" << endl;
 	exit(1);
-}*/
+}
